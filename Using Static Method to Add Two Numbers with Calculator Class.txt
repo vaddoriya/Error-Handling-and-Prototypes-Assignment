@@ -1,0 +1,9 @@
+class Calculator {
+  static add(num1, num2) {
+    return num1 + num2;
+  }
+}
+
+// Instantiate the Calculator class and call the add method
+const result = Calculator.add(7, 8);
+console.log(result); // Output: 15
